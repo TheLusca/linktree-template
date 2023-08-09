@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Oswald", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: whitesmoke;
+}
+
+body {
+  display: grid;
+  place-items: center;
+}
+
+main {
+  background: greenyellow;
+  width: 375px;
+  height: 812px;
+}
+
+.container {
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.5rem;
+
+  margin-top: 1.5rem;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+
+  margin-top: 0.25rem;
+
+  display: flex;
+  gap: 0.75rem;
+
+  justify-content: center;
+}
+
+p {
+  margin-top: 2rem;
+}
+
+ul {
+  margin-top: 2rem;
+  list-style: none;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+}
